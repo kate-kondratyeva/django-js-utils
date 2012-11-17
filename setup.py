@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'django_js_utils', 
-    version='0.1-g2.1',
+    version='0.1-g2.2',
     description='Django URL Exposure to Javascript',
     author='Dimitri Gnidash',
     author_email='dimitri.gnidash@gmail.com',
