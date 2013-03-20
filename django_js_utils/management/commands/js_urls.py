@@ -75,4 +75,4 @@ class Command(BaseCommand):
                     Command.handle_url_module(js_patterns, pattern.url_patterns, prefix=pattern.regex.pattern)
                 elif pattern.urlconf_name:
                     if pattern.urlconf_name in URLS_JS_TO_EXPOSE:
-                        Command.handle_url_module(js_patterns, pattern.urlconf_name, prefix=pattern.regex.pattern)
+                        Command.handle_url_module(js_patterns, pattern.urlconf_name, prefix=prefix+pattern.regex.pattern)
